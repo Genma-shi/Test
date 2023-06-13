@@ -1,7 +1,7 @@
 from aiogram import types
 from markups import help_markup
 from database.manager import user_manager
-
+print("1")
 async def welcome_message(message: types.Message):
     user_data = {
     "username": message.from_user.username,
